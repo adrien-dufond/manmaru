@@ -4,6 +4,9 @@
 	@author Adrien Dufond - manmaru, Inc.
 	@version 0.1
 	@since 17/12/2013
+	
+	Distributed under the terms of the MIT license.
+	http://www.opensource.org/licenses/mit-license.html
 */
 
 DataUtil = (function() {
