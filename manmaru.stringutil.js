@@ -154,6 +154,7 @@ StringUtil = (function() {
 			w[i] = StringUtil.replaceAt(w[i], 0, w[i].charAt(0).toUpperCase());
 		return w.join(' ');
 	}
+	
 	/**
 		Get value of string with URLFormat 
 		@param name Example: &var1=mi_var1&var2=mi_var2&var3=mi_var3
