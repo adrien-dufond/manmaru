@@ -21,49 +21,49 @@ getLowestValue -> Finds the lowest value in {@code inArray}.<br>
 getHighestValue -> Finds the highest value in {@code inArray}.<br><br><br>
 
 
--manmaru.browserutil.js :
-Utilities for browser & os detection.
+-manmaru.browserutil.js :<br>
+Utilities for browser & os detection.<br><br>
 
-getBrowser -> return true or false for browser or os detection.
-
-
--manmaru.datautil.js : 
-Utilities for data manipulating.
-
-setCookie -> Set Cookie.
-getCookie -> Get Cookie.
-deleteCookie -> Delete Cookie
+getBrowser -> return true or false for browser or os detection.<br><br><br>
 
 
--manmaru.stringutil.js : 
-Utilities for manipulating and searching Strings. 
+-manmaru.datautil.js : <br>
+Utilities for data manipulating.<br><br>
 
-addAt -> Adds characters at a specific index.
-contains -> Determines if string contains search string.
-getNumbersFromString -> Removes all non numeric characters from string.
-getUniqueCharacters -> Extracts all the unique characters from a source String.
-remove -> Removes characters from a source string.
-removeAt -> Removes a character at a specific index.
-removeNumbersFromString -> Removes all numeric characters from string.
-removeWhitespace -> Removes tabs, linefeeds, carriage returns and spaces from string.
-replace -> Replaces target characters with new characters.
-replaceAt -> Replaces a character at a specific index with new characters.
-toTitleCase -> Transforms source string to per word capitalization.
-urlValue -> Get value of string with URLFormat.
-urlFriendly -> Transform source string in url string format.
-pathVars -> Transform source url string in array.
-utf8Encode -> UTF8 Encode.
-utf8Decode -> UTF8 Decode.
-lnToBr -> Transform \n to <br>.
-brToLn -> Transform <br> to \n.
+setCookie -> Set Cookie.<br>
+getCookie -> Get Cookie.<br>
+deleteCookie -> Delete Cookie<br><br><br>
 
 
--manmaru.validationutil.js : 
-Utilities for validating common string formats. (Need manmaru.StringUtil.js)
+-manmaru.stringutil.js : <br>
+Utilities for manipulating and searching Strings. <br><br>
 
-contains -> Determines if string contains search string.
-isEmail -> Determines if string is a valid email address.
-isEmpty -> Determines if string is blank or contains only tabs, linefeeds, carriage returns and spaces.
-isPhone -> Determines if numbers in string are equal to or greater than a valid phone number length.
-isZip -> Determines if numbers in string are a valid US zip code length.
+addAt -> Adds characters at a specific index.<br>
+contains -> Determines if string contains search string.<br>
+getNumbersFromString -> Removes all non numeric characters from string.<br>
+getUniqueCharacters -> Extracts all the unique characters from a source String.<br>
+remove -> Removes characters from a source string.<br>
+removeAt -> Removes a character at a specific index.<br>
+removeNumbersFromString -> Removes all numeric characters from string.<br>
+removeWhitespace -> Removes tabs, linefeeds, carriage returns and spaces from string.<br>
+replace -> Replaces target characters with new characters.<br>
+replaceAt -> Replaces a character at a specific index with new characters.<br>
+toTitleCase -> Transforms source string to per word capitalization.<br>
+urlValue -> Get value of string with URLFormat.<br>
+urlFriendly -> Transform source string in url string format.<br>
+pathVars -> Transform source url string in array.<br>
+utf8Encode -> UTF8 Encode.<br>
+utf8Decode -> UTF8 Decode.<br>
+lnToBr -> Transform \n to <br>. <br>
+brToLn -> Transform <br> to \n. <br><br><br>
+
+
+-manmaru.validationutil.js : <br>
+Utilities for validating common string formats. (Need manmaru.StringUtil.js)<br><br>
+
+contains -> Determines if string contains search string.<br>
+isEmail -> Determines if string is a valid email address.<br>
+isEmpty -> Determines if string is blank or contains only tabs, linefeeds, carriage returns and spaces.<br>
+isPhone -> Determines if numbers in string are equal to or greater than a valid phone number length.<br>
+isZip -> Determines if numbers in string are a valid US zip code length.<br>
 
