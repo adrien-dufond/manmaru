@@ -4,7 +4,7 @@ MANMARU UTIL JS
 Some based on Aaron Clinger CASA Lib ActionScript library<br>
 http://casalib.org/<br><br>
 
--manmaru.arrayutil.js : <br>
+<b>manmaru.arrayutil.js :</b> <br>
 Utilities for sorting, searching and manipulating Arrays.<br><br>
 
 equals -> Determines if two Arrays contain the same objects at the same index.<br>
