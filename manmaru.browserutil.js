@@ -14,9 +14,9 @@ BrowserUtil = (function() {
     function BrowserUtil() {}
     
     /**
-		Detect browser or os.
-		@param search: browser or OS to detect.
-		list : 
+		Determines if string contains search string.
+		@param search: browser or OS to detect:
+		
 		isWinXP,isWinVista,isWin7,isWin8,
 		isLinux,
 		isWinPhone8,
@@ -38,7 +38,13 @@ BrowserUtil = (function() {
 	BrowserUtil.getBrowser = function(search) {
 		
 		var ua = navigator.userAgent,
-			isAndroid   = false;
+			isIOS6    = false,
+			isIOS5    = false,
+			isIOS4    = false,
+			isIPhone  = false,
+			isIPad    = false,
+			isIPod    = false,
+			isAndroid = false;
 		
 		if (ua.indexOf("Windows NT 5.1") !== -1 && search === "isWinXP") { return true;
 		} else {
@@ -66,11 +72,11 @@ BrowserUtil = (function() {
 													} else {
 														if (ua.indexOf("Android 4.1") !== -1 && search === "isAndroid_JellyBean") { return true; 
 														} else {
-															if (ua.match(/OS 6_[0-9_]+ like Mac OS X/i) && search === "isIOS6") { return true; 
+															if (ua.match(/OS 6_[0-9_]+ like Mac OS X/i) && search === "isIOS6") { isIOS6 = true; return true; 
 															} else {
-																if (ua.match(/OS 5_[0-9_]+ like Mac OS X/i) && search === "isIOS5") { return true; 
+																if (ua.match(/OS 5_[0-9_]+ like Mac OS X/i) && search === "isIOS5") { isIOS5 = true; return true; 
 																} else {
-																	if (ua.match(/OS 4_[0-9_]+ like Mac OS X/i) && search === "isIOS4") { return true; 
+																	if (ua.match(/OS 4_[0-9_]+ like Mac OS X/i) && search === "isIOS4") { isIOS4 = true; return true; 
 																	}
 																}
 															}
@@ -86,11 +92,11 @@ BrowserUtil = (function() {
 					}
 				}
 			}
-		} if (ua.indexOf("iPhone") !== -1 && search === "isIPhone") { return true; } 
+		} if (ua.indexOf("iPhone") !== -1 && search === "isIPhone") { isIPhone = true; return true; } 
 		else {
-			if (ua.indexOf("iPad") !== -1 && search === "isIPad") { return true; } 
+			if (ua.indexOf("iPad") !== -1 && search === "isIPad") { isIPad = true; return true; } 
 			else {
-				if (ua.indexOf("iPod") !== -1 && search === "isIPod") { return true;
+				if (ua.indexOf("iPod") !== -1 && search === "isIPod") { isIPod = true; return true;
 				}
 			}
 		}
