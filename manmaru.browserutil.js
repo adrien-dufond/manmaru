@@ -15,8 +15,8 @@ BrowserUtil = (function() {
     
     /**
 		Detect browser or os.
-		@param search: browser or OS to detect:
-		
+		@param search: browser or OS to detect.
+		list : 
 		isWinXP,isWinVista,isWin7,isWin8,
 		isLinux,
 		isWinPhone8,
