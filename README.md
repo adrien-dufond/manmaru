@@ -20,7 +20,20 @@ Utilities for sorting, searching and manipulating Arrays.<br><br>
 <b>getHighestValue</b> -> Finds the highest value in {@code inArray}.<br><br><br>
 <b>manmaru.browserutil.js :</b><br>
 Utilities for browser & os detection.<br><br>
-<b>getBrowser</b> -> return true or false for browser or os detection.<br><br><br>
+<b>getBrowser</b> -> return true or false for browser or os detection.<br>
+@param list:<br>
+isWinXP,isWinVista,isWin7,isWin8<br>
+isLinux<br>
+isWinPhone8<br>
+isAndroid<br>
+isOSX_SnowLeopard,isOSX_MountainLion<br>
+isAndroidBrowser,isAndroid_Gingerbread,isAndroid_IceCream,isAndroid_JellyBean<br>
+isIOS,isIOS6,isIOS5,isIOS4<br>
+isIPhone,isIPad,isIPod<br>
+isIE,isIE11,isIE10,isIE9,isIE8,isIE7,isIE6<br>
+isFF<br>
+isChrome<br>
+isSafari<br><br><br>
 <b>manmaru.datautil.js :</b><br>
 Utilities for data manipulating.<br><br>
 <b>setCookie</b> -> Set Cookie.<br>
