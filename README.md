@@ -45,7 +45,7 @@ Utilities for manipulating and searching Strings. <br><br>
 <b>utf8Encode</b> -> UTF8 Encode.<br>
 <b>utf8Decode</b> -> UTF8 Decode.<br>
 <b>lnToBr</b> -> Transform \n to br. <br>
-<b>brToLn</b> -> Transform br to \n. <br><br>
+<b>brToLn</b> -> Transform br to \n. <br><br><br>
 <b>manmaru.validationutil.js :</b><br>
 Utilities for validating common string formats. (Need manmaru.StringUtil.js)<br><br>
 <b>contains</b> -> Determines if string contains search string.<br>
