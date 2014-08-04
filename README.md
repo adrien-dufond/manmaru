@@ -1,24 +1,24 @@
 MANMARU UTIL JS
 ===============
 
-Some based on Aaron Clinger CASA Lib ActionScript library
-http://casalib.org/
+Some based on Aaron Clinger CASA Lib ActionScript library<br>
+http://casalib.org/<br><br>
 
--manmaru.arrayutil.js : 
-Utilities for sorting, searching and manipulating Arrays.
+-manmaru.arrayutil.js : <br>
+Utilities for sorting, searching and manipulating Arrays.<br><br>
 
-equals -> Determines if two Arrays contain the same objects at the same index.
-addItemsAt -> Modifies original Array by adding all the elements from another Array at a specified position.
-removeDuplicates -> Creates new Array composed of only the non-identical elements of passed Array.
-removeItem -> Modifies original Array by removing all items that are identical to the specified item.
-removeItems -> Removes only the specified items in an Array.
-retainItems -> Retains only the specified items in an Array.
-contains -> Finds out how many instances of {@code item} Array contains.
-containsAny -> Determines if Array {@code inArray} contains any element of Array {@code items}.
-getIndexOfDifference -> Compares two Arrays and finds the first index where they differ.
-randomize -> Creates new Array composed of passed Array's items in a random order.
-getLowestValue -> Finds the lowest value in {@code inArray}.
-getHighestValue -> Finds the highest value in {@code inArray}.
+equals -> Determines if two Arrays contain the same objects at the same index.<br>
+addItemsAt -> Modifies original Array by adding all the elements from another Array at a specified position.<br>
+removeDuplicates -> Creates new Array composed of only the non-identical elements of passed Array.<br>
+removeItem -> Modifies original Array by removing all items that are identical to the specified item.<br>
+removeItems -> Removes only the specified items in an Array.<br>
+retainItems -> Retains only the specified items in an Array.<br>
+contains -> Finds out how many instances of {@code item} Array contains.<br>
+containsAny -> Determines if Array {@code inArray} contains any element of Array {@code items}.<br>
+getIndexOfDifference -> Compares two Arrays and finds the first index where they differ.<br>
+randomize -> Creates new Array composed of passed Array's items in a random order.<br>
+getLowestValue -> Finds the lowest value in {@code inArray}.<br>
+getHighestValue -> Finds the highest value in {@code inArray}.<br><br><br>
 
 
 -manmaru.browserutil.js :
