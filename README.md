@@ -21,6 +21,7 @@ Utilities for sorting, searching and manipulating Arrays.<br><br>
 <b>manmaru.browserutil.js :</b><br>
 Utilities for browser & os detection.<br><br>
 <b>getBrowser</b> -> return true or false for browser or os detection.<br>
+use : BrowserUtil.getBrowser("isXXXX");<br>
 @param list:<br>
 isWinXP,isWinVista,isWin7,isWin8<br>
 isLinux<br>
