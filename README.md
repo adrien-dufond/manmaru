@@ -19,7 +19,7 @@ Utilities for sorting, searching and manipulating Arrays.<br><br>
 <b>getLowestValue</b> -> Finds the lowest value in {@code inArray}.<br>
 <b>getHighestValue</b> -> Finds the highest value in {@code inArray}.<br><br><br>
 <b>manmaru.browserutil.js :</b><br>
-Utilities for browser & os detection.<br><br>
+Utility for browser & os detection.<br><br>
 <b>getBrowser</b> -> return true or false for browser or os detection.<br>
 use : BrowserUtil.getBrowser("isXXXX");<br>
 @param list:<br>
