@@ -6,7 +6,6 @@ http://casalib.org/<br><br>
 
 <b>manmaru.arrayutil.js :</b> <br>
 Utilities for sorting, searching and manipulating Arrays.<br><br>
-
 equals -> Determines if two Arrays contain the same objects at the same index.<br>
 addItemsAt -> Modifies original Array by adding all the elements from another Array at a specified position.<br>
 removeDuplicates -> Creates new Array composed of only the non-identical elements of passed Array.<br>
@@ -19,25 +18,16 @@ getIndexOfDifference -> Compares two Arrays and finds the first index where they
 randomize -> Creates new Array composed of passed Array's items in a random order.<br>
 getLowestValue -> Finds the lowest value in {@code inArray}.<br>
 getHighestValue -> Finds the highest value in {@code inArray}.<br><br><br>
-
-
--manmaru.browserutil.js :<br>
+<b>manmaru.browserutil.js :</b><br>
 Utilities for browser & os detection.<br><br>
-
 getBrowser -> return true or false for browser or os detection.<br><br><br>
-
-
--manmaru.datautil.js : <br>
+<b>manmaru.datautil.js :</b><br>
 Utilities for data manipulating.<br><br>
-
 setCookie -> Set Cookie.<br>
 getCookie -> Get Cookie.<br>
 deleteCookie -> Delete Cookie<br><br><br>
-
-
--manmaru.stringutil.js : <br>
+<b>manmaru.stringutil.js :</b> <br>
 Utilities for manipulating and searching Strings. <br><br>
-
 addAt -> Adds characters at a specific index.<br>
 contains -> Determines if string contains search string.<br>
 getNumbersFromString -> Removes all non numeric characters from string.<br>
@@ -54,13 +44,10 @@ urlFriendly -> Transform source string in url string format.<br>
 pathVars -> Transform source url string in array.<br>
 utf8Encode -> UTF8 Encode.<br>
 utf8Decode -> UTF8 Decode.<br>
-lnToBr -> Transform \n to <br>. <br>
-brToLn -> Transform <br> to \n. <br><br><br>
-
-
--manmaru.validationutil.js : <br>
+lnToBr -> Transform \n to <pre><br></pre>. <br>
+brToLn -> Transform <br> to \n. <pre><br></pre><br><br>
+<b>manmaru.validationutil.js :</b><br>
 Utilities for validating common string formats. (Need manmaru.StringUtil.js)<br><br>
-
 contains -> Determines if string contains search string.<br>
 isEmail -> Determines if string is a valid email address.<br>
 isEmpty -> Determines if string is blank or contains only tabs, linefeeds, carriage returns and spaces.<br>
