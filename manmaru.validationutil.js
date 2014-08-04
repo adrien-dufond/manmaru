@@ -31,7 +31,7 @@ ValidationUtil = (function() {
 		@param email: String to verify as email.
 		@return Returns <code>true</code> if string is a valid email; otherwise <code>false</code>.
 	*/
-    ValidationUtil.isEmail = function(email) {
+    	ValidationUtil.isEmail = function(email) {
 		if (email.length < 6 || ValidationUtil.isEmpty(email)) { return false; }
 		if (StringUtil.contains(email, ' ') > 0) { return false; }
 		if (StringUtil.contains(email, '@') != 1) { return false; }
@@ -46,9 +46,9 @@ ValidationUtil = (function() {
 		@param source: String to check if empty.
 		@return Returns <code>true</code> if string is empty; otherwise <code>false</code>.
 	*/
-    ValidationUtil.isEmpty = function(str) {
-    	if(StringUtil.removeWhitespace(str) == "") { return true; } else { return false; };
-    }
+    	ValidationUtil.isEmpty = function(str) {
+    		if(StringUtil.removeWhitespace(str) == "") { return true; } else { return false; };
+    	}
     /**
 		Determines if numbers in string are equal to or greater than a valid phone number length.
 		@param phone: String to verify the containing numbers are equal or above 10 numbers in length.
