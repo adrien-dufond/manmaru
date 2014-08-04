@@ -14,7 +14,7 @@ BrowserUtil = (function() {
     function BrowserUtil() {}
     
     /**
-		Determines if string contains search string.
+		Detect browser or os.
 		@param search: browser or OS to detect:
 		
 		isWinXP,isWinVista,isWin7,isWin8,
