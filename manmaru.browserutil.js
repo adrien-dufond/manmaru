@@ -3,7 +3,7 @@
 	
 	@author Adrien Dufond - manmaru, Inc.
 	@src https://github.com/adrien-dufond/manmaru
-	@version 0.2
+	@version 0.3
 	@since 04/08/2014
 	
 	Distributed under the terms of the MIT license.
@@ -22,6 +22,8 @@ BrowserUtil = (function() {
 		isLinux,
 		isWinPhone8,
 		isAndroid,
+		isNexus7,isNexus10,
+		isBlackberry,
 		isOSX_SnowLeopard,isOSX_MountainLion,
 		isAndroidBrowser,isAndroid_Gingerbread,isAndroid_IceCream,isAndroid_JellyBean,
 		isIOS,isIOS6,isIOS5,isIOS4,
@@ -29,8 +31,10 @@ BrowserUtil = (function() {
 		isIE,isIE11,isIE10,isIE9,isIE8,isIE7,isIE6,
 		isFF,
 		isChrome,
-		isSafari;
-		isOpera;
+		isSafari,
+		isOpera,
+		isOmniWeb,
+		isKonqueror;
 		
 		@return Returns <code>true</code> if search browser or OS searched is detected; otherwise <code>false</code>.
 		
@@ -80,7 +84,10 @@ BrowserUtil = (function() {
 																} else {
 																	if (ua.match(/OS 4_[0-9_]+ like Mac OS X/i) && search === "isIOS4") { isIOS4 = true; return true; 
 																	} else {
-																		if(ua.indexOf("Opera") !== -1 && search === "isOpera") { return true; 
+																		if(ua.indexOf("Nexus 10") !== -1 && search === "isNexus10") { return true;
+																		} else {
+																			if(ua.indexOf("Nexus 7") !== -1 && search === "isNexus7") { return true;
+																			}
 																		}
 																	}
 																}
@@ -129,6 +136,17 @@ BrowserUtil = (function() {
 									if (ua.indexOf("Mobile Safari") !== -1 && isAndroid && search === "isAndroidBrowser") { return true; } 
 									else {
 										if (ua.indexOf("Safari") !== -1 && search === "isSafari" ) { return true; }
+										else {
+											if(ua.indexOf("Opera") !== -1 && search === "isOpera") { return true; } 
+											else {
+												if(ua.indexOf("OmniWeb") !== -1 && search === "isOmniWeb") { return true; } 
+												else {
+													if(ua.indexOf("Konqueror") !== -1 && search === "isKonqueror") { return true; } 
+													else {
+														if(ua.indexOf("Blackberry") !== -1 && search === "isBlackberry") { return true; }	
+													}
+												}
+											}
 										}
 									}
 								}
@@ -138,6 +156,7 @@ BrowserUtil = (function() {
 				}
 			}
 		}
+	}
 		
 		if(search === "isIOS") {
 			if(!isIOS6 && !isIOS5 && !isIOS4 && !isIPhone && !isIPad && !isIPod ) {
