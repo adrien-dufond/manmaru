@@ -3,6 +3,7 @@
 	Inspired from CASA Lib / AS 2.0 (v.10/06/08) - Aaron Clinger, David Nelson
 	
 	@author Adrien Dufond - manmaru, Inc.
+	@src https://github.com/adrien-dufond/manmaru
 	@version 0.1
 	@since 18/06/2013
 	
