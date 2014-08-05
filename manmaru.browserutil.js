@@ -30,6 +30,7 @@ BrowserUtil = (function() {
 		isFF,
 		isChrome,
 		isSafari;
+		isOpera;
 		
 		@return Returns <code>true</code> if search browser or OS searched is detected; otherwise <code>false</code>.
 		
@@ -78,6 +79,9 @@ BrowserUtil = (function() {
 																if (ua.match(/OS 5_[0-9_]+ like Mac OS X/i) && search === "isIOS5") { isIOS5 = true; return true; 
 																} else {
 																	if (ua.match(/OS 4_[0-9_]+ like Mac OS X/i) && search === "isIOS4") { isIOS4 = true; return true; 
+																	} else {
+																		if(ua.indexOf("Opera")) !== -1 && search === "isOpera") { return true; 
+																		}
 																	}
 																}
 															}
