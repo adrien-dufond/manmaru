@@ -27,6 +27,8 @@ isWinXP,isWinVista,isWin7,isWin8<br>
 isLinux<br>
 isWinPhone8<br>
 isAndroid<br>
+isNexus7,isNexus10<br>
+isBlackberry<br>
 isOSX_SnowLeopard,isOSX_MountainLion<br>
 isAndroidBrowser,isAndroid_Gingerbread,isAndroid_IceCream,isAndroid_JellyBean<br>
 isIOS,isIOS6,isIOS5,isIOS4<br>
@@ -35,7 +37,9 @@ isIE,isIE11,isIE10,isIE9,isIE8,isIE7,isIE6<br>
 isFF<br>
 isChrome<br>
 isSafari<br>
-isOpera<br><br><br>
+isOpera<br>
+isOmniWeb<br>
+isKonqueror<br><br><br>
 <b>manmaru.datautil.js :</b><br>
 Utilities for cookie data manipulating.<br><br>
 <b>setCookie</b> -> Set Cookie.<br>
