@@ -34,7 +34,8 @@ isIPhone,isIPad,isIPod<br>
 isIE,isIE11,isIE10,isIE9,isIE8,isIE7,isIE6<br>
 isFF<br>
 isChrome<br>
-isSafari<br><br><br>
+isSafari<br>
+isOpera<br><br><br>
 <b>manmaru.datautil.js :</b><br>
 Utilities for cookie data manipulating.<br><br>
 <b>setCookie</b> -> Set Cookie.<br>
