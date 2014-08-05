@@ -2,6 +2,7 @@
 	Utilities for data manipulating.
 	
 	@author Adrien Dufond - manmaru, Inc.
+	@src https://github.com/adrien-dufond/manmaru
 	@version 0.1
 	@since 17/12/2013
 	
