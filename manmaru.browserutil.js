@@ -36,7 +36,7 @@ BrowserUtil = (function() {
 		isOmniWeb,
 		isKonqueror;
 		
-		@return Returns <code>true</code> if search browser or OS searched is detected; otherwise <code>false</code>.
+		@return Returns <code>true</code> if searched browser or OS is detected; otherwise <code>false</code>.
 		
 		use : BrowserUtil.getBrowser("isXXX");
 	*/
