@@ -36,7 +36,7 @@ isFF<br>
 isChrome<br>
 isSafari<br><br><br>
 <b>manmaru.datautil.js :</b><br>
-Utilities for data manipulating.<br><br>
+Utilities for cookie data manipulating.<br><br>
 <b>setCookie</b> -> Set Cookie.<br>
 <b>getCookie</b> -> Get Cookie.<br>
 <b>deleteCookie</b> -> Delete Cookie<br><br><br>
