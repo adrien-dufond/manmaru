@@ -43,17 +43,17 @@ BrowserUtil = (function() {
 			    widthIs = screen.height;
 			    heightIs = screen.width;
 			}
-
-    		if (heightIs >= 736 && widthIs >= 1024) {
-        		istablet = true;
-    		} else	{
+			
+			if (heightIs >= 736 && widthIs >= 1024) {
+				istablet = true;
+    			} else	{
 				istablet = false;
 			}
 		}
-
+		
 		if (istablet === true) {
-    		return true;
-    	} else {
+			return true;
+    		} else {
 			return false;
 		}
 	}	
