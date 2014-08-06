@@ -20,8 +20,9 @@ Utilities for sorting, searching and manipulating Arrays.<br><br>
 <b>getHighestValue</b> -> Finds the highest value in {@code inArray}.<br><br><br>
 <b>manmaru.browserutil.js :</b><br>
 Utility for browser & os detection.<br><br>
-<b>getBrowser</b> -> return true or false for browser or os detection.<br>
-use : BrowserUtil.getBrowser("isXXXX");<br>
+<b>checkMobile</b> -> return true or false if mobile.<br>
+<b>checkTablet</b> -> return true or false if tablet.<br>
+<b>checkBrowser</b> -> return true or false for browser or os detection.<br>
 @param list:<br>
 isWinXP,isWinVista,isWin7,isWin8<br>
 isLinux<br>
