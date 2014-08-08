@@ -10,7 +10,7 @@
 	http://www.opensource.org/licenses/mit-license.html
 */
 
-DataUtil = (function() {
+var DataUtil = (function() {
 	
 	function DataUtil() {}
    
