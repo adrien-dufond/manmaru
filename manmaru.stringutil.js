@@ -11,7 +11,7 @@
 	http://www.opensource.org/licenses/mit-license.html
 */
 
-StringUtil = (function() {
+var StringUtil = (function() {
 	
    function StringUtil() {}
    
