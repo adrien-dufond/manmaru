@@ -11,7 +11,7 @@
 	http://www.opensource.org/licenses/mit-license.html
 */
 
-ArrayUtil = (function() {
+var ArrayUtil = (function() {
 	
 	function ArrayUtil() {}
    
