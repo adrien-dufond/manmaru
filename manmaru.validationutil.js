@@ -13,7 +13,7 @@
 	http://www.opensource.org/licenses/mit-license.html
 */
 
-ValidationUtil = (function() {
+var ValidationUtil = (function() {
 
     function ValidationUtil() {}
     
