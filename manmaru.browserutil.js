@@ -10,7 +10,7 @@
 	http://www.opensource.org/licenses/mit-license.html
 */
 
-var BrowserUtil = (function() {
+BrowserUtil = (function() {
 
     function BrowserUtil() {}
     
