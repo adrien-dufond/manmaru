@@ -6,6 +6,7 @@ http://casalib.org/<br><br>
 
 <b>manmaru.arrayutil.js :</b> <br>
 Utilities for sorting, searching and manipulating Arrays.<br><br>
+<b>function list :</b><br>
 <b>equals</b> -> Determines if two Arrays contain the same objects at the same index.<br>
 <b>addItemsAt</b> -> Modifies original Array by adding all the elements from another Array at a specified position.<br>
 <b>removeDuplicates</b> -> Creates new Array composed of only the non-identical elements of passed Array.<br>
@@ -17,4 +18,11 @@ Utilities for sorting, searching and manipulating Arrays.<br><br>
 <b>getIndexOfDifference</b> -> Compares two Arrays and finds the first index where they differ.<br>
 <b>randomize</b> -> Creates new Array composed of passed Array's items in a random order.<br>
 <b>getLowestValue</b> -> Finds the lowest value in {@code inArray}.<br>
-<b>getHighestValue</b> -> Finds the highest value in {@code inArray}.
+<b>getHighestValue</b> -> Finds the highest value in {@code inArray}.<br><br><br>
+<b>How to use:</b>
+ArrayUtil.functionName("param");<br>
+-<br>
+exemple :<br>
+var testArray = new Array("blue","blue","green","red");
+console.log(ArrayUtil.contains(testArray,"blue"));
+return -> 2
