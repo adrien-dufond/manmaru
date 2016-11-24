@@ -23,6 +23,6 @@ Utilities for sorting, searching and manipulating Arrays.<br><br>
 ArrayUtil.functionName("param");<br>
 <br>
 example :<br>
-var testArray = new Array("blue","blue","green","red");
-console.log(ArrayUtil.contains(testArray,"blue"));
+var testArray = new Array("blue","blue","green","red");<br>
+console.log(ArrayUtil.contains(testArray,"blue"));<br>
 return -> 2
