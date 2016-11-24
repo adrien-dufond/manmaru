@@ -1,0 +1,14 @@
+{
+  "name": "manmaru.arrayutil",
+  "main": "manmaru.arrayutil.js",
+  "authors": [
+    "Adrien Dufond <adrien.dufond@gmail.com>"
+  ],
+  "description": "javascript utilities for sorting, searching and manipulating arrays",
+  "keywords": [
+    "array",
+    "manmaru"
+  ],
+  "license": "MIT",
+  "homepage": "www.manmaru.fr"
+}
