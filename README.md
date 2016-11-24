@@ -1,7 +1,9 @@
 MANMARU ARRAYUTIL JS
 ===============
 
-<b>manmaru.arrayutil.js :</b> <br>
+Inspired from CASA Lib / AS 2.0 (v.10/06/08) - Aaron Clinger, David Nelson<br><br>
+
+<b>manmaru.arrayutil.js :</b><br>
 Javascript utilities for sorting, searching and manipulating Arrays.<br><br>
 <b>function list :</b><br>
 <b>equals</b> -><br>
