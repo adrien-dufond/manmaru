@@ -1,4 +1,4 @@
-MANMARU UTIL JS
+MANMARU ARRAYUTIL JS
 ===============
 
 Some based on Aaron Clinger CASA Lib ActionScript library<br>
