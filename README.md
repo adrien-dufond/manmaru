@@ -1,8 +1,5 @@
-MANMARU UTIL JS
+MANMARU ARRAYUTIL JS
 ===============
-
-Some based on Aaron Clinger CASA Lib ActionScript library<br>
-http://casalib.org/<br><br>
 
 <b>manmaru.arrayutil.js :</b> <br>
 Javascript utilities for sorting, searching and manipulating Arrays.<br><br>
@@ -22,7 +19,7 @@ Javascript utilities for sorting, searching and manipulating Arrays.<br><br>
 <b>How to use:</b><br>
 ArrayUtil.functionName("param");<br>
 <br>
-example :<br>
+<b>example :</b><br>
 var testArray = new Array("blue","blue","green","red");<br>
 console.log(ArrayUtil.contains(testArray,"blue"));<br>
 return -> 2
