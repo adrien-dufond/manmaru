@@ -19,10 +19,10 @@ Utilities for sorting, searching and manipulating Arrays.<br><br>
 <b>randomize</b> -> Creates new Array composed of passed Array's items in a random order.<br>
 <b>getLowestValue</b> -> Finds the lowest value in {@code inArray}.<br>
 <b>getHighestValue</b> -> Finds the highest value in {@code inArray}.<br><br><br>
-<b>How to use:</b>
+<b>How to use:</b><br>
 ArrayUtil.functionName("param");<br>
--<br>
-exemple :<br>
+<br>
+example :<br>
 var testArray = new Array("blue","blue","green","red");
 console.log(ArrayUtil.contains(testArray,"blue"));
 return -> 2
