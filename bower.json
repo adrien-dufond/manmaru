@@ -1,6 +1,10 @@
 {
   "name": "manmaru.arrayutil",
   "main": "manmaru.arrayutil.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrien-dufond/manmaru.arrayutil.git"
+  },
   "authors": [
     "Adrien Dufond <adrien.dufond@gmail.com>"
   ],
