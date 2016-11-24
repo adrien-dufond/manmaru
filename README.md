@@ -5,7 +5,7 @@ MANMARU ARRAYUTIL JS
 
 <b>manmaru.arrayutil.js :</b><br>
 Javascript utilities for sorting, searching and manipulating Arrays.<br><br>
-<b>function list :</b><br>
+
 <b>equals</b>(first, second) -><br>
 Determines if two Arrays contain the same objects at the same index<br>
 @param first: First Array to compare to the {@code second}<br>
