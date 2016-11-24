@@ -77,7 +77,7 @@ Finds the highest value in {@code inArray}<br>
 <b>How to use:</b><br>
 ArrayUtil.functionName("param");<br>
 <br>
-<b>example of use :</b><br>
+<b>Example of use :</b><br>
 var testArray = new Array("blue","blue","green","red");<br>
 console.log(ArrayUtil.contains(testArray,"blue"));<br>
 return -> 2
