@@ -6,7 +6,7 @@ http://casalib.org/<br><br>
 
 <b>manmaru.arrayutil.js :</b> <br>
 Javascript utilities for sorting, searching and manipulating Arrays.<br><br>
-<b>function list :</b><br>
+<b>functions list :</b><br>
 <b>equals</b> -> Determines if two Arrays contain the same objects at the same index.<br>
 <b>addItemsAt</b> -> Modifies original Array by adding all the elements from another Array at a specified position.<br>
 <b>removeDuplicates</b> -> Creates new Array composed of only the non-identical elements of passed Array.<br>
